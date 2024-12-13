@@ -1,0 +1,74 @@
+body {
+    background-color: #000; /* Темный фон для общего сайта */
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; /* Учитывая высоту header и footer */
+    padding: 20px;
+    user-select: none;
+    caret-color: transparent;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    max-width: 800px;
+    background: linear-gradient(to right, #6A0DAD, #1C1C1C); /* Фиолетовый слева, темно-серый справа */
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+.card > div {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Левая колонка: информация о пользователе */
+.user-info {
+    background: rgba(106, 13, 173, 0.9); /* Более насыщенный фиолетовый */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.user-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.user-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+/* Правая колонка: информация об абонементе */
+.subscription-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.subscription-info h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.subscription-info p {
+    margin: 5px 0;
+    font-size: 16px;
+}
