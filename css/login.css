@@ -1,0 +1,82 @@
+/*!* Стили для страницы входа *!*/
+/*.form-container {*/
+/*    max-width: 400px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*form input {*/
+/*    margin-bottom: 20px;*/
+/*}*/
+
+/*button {*/
+/*    width: 100%;*/
+/*}*/
+
+/* Общий контейнер формы */
+.form-container {
+    max-width: 320px; /* Центрируем форму и ограничиваем ширину */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1C1C1C; /* Черный фон */
+    border: 1px solid #6A0DAD; /* Фиолетовая граница */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: left;
+}
+
+/* Заголовок формы */
+.form-container h2 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    user-select: none; /* Отключает выделение */
+    caret-color: transparent; /* Прячет мигающую текстовую черту */
+}
+
+/* Поля ввода */
+.input-field {
+    width: 100%;
+    max-width: 300px; /* Ограничиваем ширину поля */
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #6A0DAD;
+    border-radius: 5px;
+    background-color: #1C1C1C;
+    color: #fff;
+    font-size: 14px;
+}
+
+/* Кнопка */
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #6A0DAD;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+    caret-color: transparent;
+}
+
+.btn:hover {
+    background-color: #7B1FA2;
+}
+
+/* Ссылки */
+.form-container a {
+    color: #6A0DAD;
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+.form-container label, p {
+    user-select: none;
+    caret-color: transparent;
+}

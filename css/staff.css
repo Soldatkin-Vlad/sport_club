@@ -1,0 +1,50 @@
+/* Основной контейнер */
+.container-one {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    user-select: none;
+    caret-color: transparent;
+}
+
+.staff-container {
+    display: flex;
+    flex-wrap: wrap;
+    /*grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));*/
+    gap: 30px;
+    justify-content: center;
+}
+
+.staff-card {
+    text-align: center;
+    background-color: #111;
+    border: 1px solid #6a0dad;
+    border-radius: 10px;
+    padding: 15px;
+    width: 270px;
+    height: 450px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.staff-card:hover {
+    transform: scale(1.05);
+}
+
+.staff-image {
+    height: 370px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.staff-card h3 {
+    color: #fff;
+}
+
+.staff-card p {
+    color: #aaa;
+}
